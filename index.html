@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app='moduleOne'>
+<head>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+
+	<title>JS7</title>
+</head>
+<body ng-controller='controllerOne'>
+
+<button  ng-hide='hide' ng-click='showMetric($event)'>Look at these functions</button>
+<button ng-show='appear' ng-click='hideMetric()'>Make them go away</button>
+<div class="metricBox" ng-show='appear' >
+	<p>{{}}</p>
+	<p>{{}}</p>	
+	<p>{{}}</p>
+	<p>{{}}</p>
+</div>
+
+</body>
+</html>
